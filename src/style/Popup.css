@@ -1,0 +1,86 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-content {
+    max-width: 400px;
+    min-width: 80%;
+    min-height: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .close-button{
+    display: block;
+  }
+  .banner{
+    max-width: 50%;
+  }
+  .btn{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .org{
+    display: flex;
+    align-items: center;
+  }
+  .footer{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .org_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2.5px;
+    background: #cdcdcd;
+  }
+  .org_name{
+    font-weight: bolder;
+    margin-left: 5px;
+  }
+  .venue{
+    display: flex;
+    flex-direction: column;
+  }
+  .venue_city{
+    display: flex;
+    font-weight: bolder;
+  }
+  .venue p{
+    margin: 0;
+  }
+  .time_box{
+    display: flex;
+    justify-content: center;
+  }
+  .time{
+    text-align: end;
+    width: 50%;
+    color: #727272;
+    margin-top: 2px;
+  }
+
+  .title{
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .description{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .place{
+    font-style: italic;
+  }
