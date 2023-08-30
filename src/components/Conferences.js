@@ -4,8 +4,8 @@ import Popup from './Popup';
 
 function Conferences() {
     const API = "https://gdscdev.vercel.app/api";
-    const conferencesPerPage = 3; // Number of conferences per page
-    const maxVisiblePageNumbers = 3; // Number of visible page numbers
+    const conferencesPerPage = 3;
+    const maxVisiblePageNumbers = 3;
     const [data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedConference, setSelectedConference] = useState(null);
