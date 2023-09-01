@@ -73,3 +73,20 @@
     font-size: 26px !important;
     margin-top: 10px !important;
 }
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        grid-template-columns: auto;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .para{
+        font-size: 13px;
+    }
+    .card{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
